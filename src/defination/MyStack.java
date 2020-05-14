@@ -25,7 +25,7 @@ public class MyStack<E> implements StackADT<E> {
 
     @Override
     public E pop() {
-        return null;
+        return array[top--];
     }
 
     @Override
