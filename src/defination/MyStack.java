@@ -7,6 +7,12 @@ public class MyStack<E> implements StackADT<E> {
     public int top;
     public int maxSize;
 
+    public MyStack(int s) {
+        maxSize = s;
+        array = (E[]) new Object[maxSize];
+        top = -1;
+    }
+
     @Override
     public void push(E item) {
 
