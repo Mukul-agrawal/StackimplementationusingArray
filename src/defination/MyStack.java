@@ -15,6 +15,7 @@ public class MyStack<E> implements StackADT<E> {
 
     @Override
     public void push(E item) {
+        array[++top] = item;
 
     }
 
