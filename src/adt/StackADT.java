@@ -1,3 +1,5 @@
+package adt;
+
 public interface StackADT<E> {
     void push(E item);
 
